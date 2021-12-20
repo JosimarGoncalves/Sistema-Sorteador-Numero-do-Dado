@@ -33,12 +33,6 @@ class SimuladorDeDado:
         except:
             print('Ocorreu um erro ao receber sua resposta!') 
         
-            
-                    
-            
-          
-            
-
     def GerarValorDoDado(self):
         print(random.randint(self.valor_minimo,self.valor_maximo))
 
